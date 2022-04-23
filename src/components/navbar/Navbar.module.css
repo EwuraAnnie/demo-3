@@ -1,0 +1,18 @@
+nav{
+    height: 4rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.412);
+    position: fixed;
+    margin-bottom: 100rem;
+}
+.menu > ul{
+    width: 32rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: 500;
+}

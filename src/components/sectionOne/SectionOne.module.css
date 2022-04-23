@@ -1,0 +1,169 @@
+.new_arrivals{
+   height: 78vh;
+   width: 90vw;
+   /* border: 1px solid black;  */
+   margin: 0 auto;
+}
+.new_arrival_row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.new_arrival_col1{
+    height: 55vh;
+    width: 17rem;
+    /* border: 1px solid black; */
+    background-color: aqua;
+    position: relative;
+
+}
+.new_arrImg1{
+    background-image: url("/public/images/chitto-cancio-9urrzNhb3PU-unsplash-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+.new_arrImg2{
+    /* border: 1px solid black; */
+    background-image: url("/public/images/mohammad-metri-E-0ON3VGrBc-unsplash-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.new_arrImg3{
+    background-image: url("/public/images/chitto-cancio-9urrzNhb3PU-unsplash-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.new_arrImg4{
+    background-image: url("/public/images/raquel-baires-vdwjtE9CPbg-unsplash-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.new_arrival_two{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 60vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.nw_card{
+    height: 60vh;
+    /* border: 1px solid black; */
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nwImg{
+    background-image: url("/public/images/jean-luc-catarin-0TH0YGKS1iU-unsplash-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 15rem;
+    margin-top: 3rem;
+}
+.nwTxt{
+    margin-top: 3rem;
+}
+.nwTxt1{
+    margin-top: 3rem;
+}
+.nwImg1{
+    background-image: url("/public/images/arno-senoner-oCXVxwTFwqE-unsplash__1_-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 15rem;
+}
+button{
+    background-color: aqua;
+    border: none;
+    font-weight: bold;
+    height: 2rem;
+    width: 7.5rem;
+}
+button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 4px;
+}
+.popular{
+    height: 70vh;
+    width: 100%;
+}
+.popular_container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 100%;
+}
+.popular_card{
+    height: 50vh;
+    width: 15rem;
+    /* border: 1px solid black; */
+    background-color: rgb(227, 227, 227);
+}
+.blog{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.blog_card{
+    background-image: url("/public/images/sarah-brown-oa7pqZmmhuA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.popular_img1, .popular_img2, .popular_img3, .popular_img4{
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+    width: 15rem;
+}
+.popular_img1{
+    background-image: url("/public/images/arno-senoner-oCXVxwTFwqE-unsplash__1_-removebg-preview.png");
+}
+.popular_img2{
+    background-image: url("/public/images/jean-luc-catarin-0TH0YGKS1iU-unsplash-removebg-preview.png");
+}
+.popular_img3{
+    background-image: url("/public/images/jean-luc-catarin-0TH0YGKS1iU-unsplash-removebg-preview.png");
+}
+.popular_img4{
+    background-image: url("/public/images/jean-luc-catarin-0TH0YGKS1iU-unsplash-removebg-preview.png");
+}
+.blog_card{
+    height: 50vh;
+    width: 27rem;
+    /* border: 1px solid black; */
+    background-color: violet;
+}
